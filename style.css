@@ -43,6 +43,9 @@ nav ul li {
 .box:hover {
   background: rgb(217, 180, 252);
 }
+.info{
+  font-size: 22px;
+}
 .game-info {
   padding: 0 34px;
   font-family: "Baloo Bhaina 2", cursive;
@@ -62,4 +65,25 @@ nav ul li {
 }
 .bb-0 {
   border-bottom: 0;
+}
+
+#reset{
+  margin : 0 20px ;
+  padding: 1px 18px;
+  background: #f3e7f9;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: "Baloo Bhaina 2", cursive;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+@media screen and (max-width : 800px) 
+{
+  .game-con{
+    flex-wrap: wrap;
+  } 
+  .game-info{
+    margin-top: 34px;
+  }
 }

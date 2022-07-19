@@ -2,6 +2,7 @@ console.log("Hello World");
 let music = new Audio("music.mp3");
 let ting = new Audio("ting.mp3");
 let gameOver = new Audio("gameover.mp3");
+let reset = document.getElementById('reset');
 let isGameOver = false;
 
 let turn = "X";
@@ -47,3 +48,15 @@ Array.from(boxes).forEach((element) => {
     }
   });
 });
+
+
+reset.addEventListener('click' , () => {
+  let boxText = document.querySelectorAll(".box-text")
+  Array.from(boxText).forEach(element => {
+    element.innerText = "";
+  })
+  turn = "X";
+  isGameOver = false;
+  document.getElementsByClassName("info")[0].innerText = "Turn for " + turn;
+  document.querySelector('.img-box').getElementsByTagName('img')[0].style.width = "0px"
+})
