@@ -78,12 +78,19 @@ nav ul li {
   font-weight: bolder;
 }
 
-@media screen and (max-width : 800px) 
+@media screen and (max-width : 950px) 
 {
   .game-con{
     flex-wrap: wrap;
   } 
   .game-info{
     margin-top: 34px;
+  }
+  .game-info h1 {
+    font-size:  1.5rem;
+  }
+  .container{
+    grid-template-columns: 3, 20vw;
+    grid-template-columns: 3, 20vw;
   }
 }
