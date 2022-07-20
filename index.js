@@ -1,9 +1,12 @@
+
 console.log("Hello World");
 let music = new Audio("music.mp3");
 let ting = new Audio("ting.mp3");
 let gameOver = new Audio("gameover.mp3");
 let reset = document.getElementById('reset');
+let selectBox = document.getElementById('select-box').value;
 let isGameOver = false;
+
 
 let turn = "X";
 
@@ -59,3 +62,36 @@ reset.addEventListener('click' , () => {
   document.getElementsByClassName("info")[0].innerText = "Turn for " + turn;
   document.querySelector('.img-box').getElementsByTagName('img')[0].style.width = "0px"
 })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// textArea.addEventListener('keyup', (e) => {
+//   createTags(e.target.value);
+//   if(e.key === 'Enter'){
+//     setTimeout(() => {
+//     e.target.value;
+//     },10)
+//     randomSelect();
+//   }
+//   })

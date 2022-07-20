@@ -1,3 +1,4 @@
+
 @import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&display=swap");
 
 * {
@@ -43,7 +44,7 @@ nav ul li {
 .box:hover {
   background: rgb(217, 180, 252);
 }
-.info{
+.info {
   font-size: 22px;
 }
 .game-info {
@@ -66,9 +67,27 @@ nav ul li {
 .bb-0 {
   border-bottom: 0;
 }
+#select-box {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin: auto;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ font-size: 18px;
+ font-family: "Baloo Bhaina 2", cursive;
+ padding: 5px;
+ border-radius: 10px;
+ text-align: center;
+}
+ #select-box:focus{
+  background: rgb(189, 130, 130);
+  color: white;
+}
 
-#reset{
-  margin : 0 20px ;
+
+ #reset {
+  margin: 0 20px;
   padding: 1px 18px;
   background: #f3e7f9;
   border-radius: 6px;
@@ -78,19 +97,18 @@ nav ul li {
   font-weight: bolder;
 }
 
-@media screen and (max-width : 950px) 
-{
-  .game-con{
+@media screen and (max-width: 950px) {
+  .game-con {
     flex-wrap: wrap;
-  } 
-  .game-info{
+  }
+  .game-info {
     margin-top: 34px;
   }
   .game-info h1 {
-    font-size:  1.5rem;
+    font-size: 1.5rem;
   }
-  .container{
+  .container {
     grid-template-columns: 3, 20vw;
     grid-template-columns: 3, 20vw;
   }
-}
+}   
