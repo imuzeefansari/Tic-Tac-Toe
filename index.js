@@ -21,8 +21,7 @@ const checkWin = () => {
     [1 , 4, 7],
     [2, 5, 8],
     [0, 4, 8],
-    [2, 4, 6],
-
+    [2, 4, 6]
   ];
   wins.forEach(e => {
     if((boxTexts[e[0]].innerText === boxTexts[e[1]].innerText) && (boxTexts[e[2]].innerText === boxTexts[e[1]].innerText) && (boxTexts[e[0]].innerText !== "")){
