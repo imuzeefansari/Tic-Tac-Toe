@@ -5,9 +5,18 @@ let ting = new Audio("ting.mp3");
 let gameOver = new Audio("gameover.mp3");
 let reset = document.getElementById('reset');
 let selectBox = document.getElementById('select-box').value;
+console.log(selectBox);
 let isGameOver = false;
 
 
+
+const hidden = () =>{
+ if(selectBox == 'Cm'){
+  document.body.style.visibility = "hidden"
+ }
+}
+
+hidden();
 let turn = "X";
 
 const changeTurn = () => {
