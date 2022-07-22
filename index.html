@@ -14,10 +14,20 @@
         <li>My Tic Tac Toe</li>
       </ul>
     </nav>
+    <form id="selection" onsubmit="selection(); return false ">
+      <label for="">please select value to play the Game..</label>
+      <br><br>
+      <select name="select-box" id="select-box">
+        <option value="pl">Player vs Player </option>
+        <option value="cm">Player vs Computer</option>
+      </select>
+    </form>
+    <!-- <form action="">
     <select name="select-box" id="select-box">
-      <option value="Pl">Player vs Player</option>
-      <option value="Cm">Player vs Computer</option>
+      <option value="pl">Player vs Player</option>
+      <option value="cm">Player vs Computer</option>
     </select>
+  </form> -->
     <div class="game-con">
       
       <div class="container">

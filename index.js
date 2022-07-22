@@ -4,19 +4,26 @@ let music = new Audio("music.mp3");
 let ting = new Audio("ting.mp3");
 let gameOver = new Audio("gameover.mp3");
 let reset = document.getElementById('reset');
-let selectBox = document.getElementById('select-box').value;
-console.log(selectBox);
+// let selectBox = document.getElementById('select-box').value;
+// console.log(selectBox);
 let isGameOver = false;
 
+ const selection = () => {
+  let selectBox = document.getElementById('select-box').value
 
 
-const hidden = () =>{
- if(selectBox == 'Cm'){
-  document.body.style.visibility = "hidden"
+  if(selectBox === 'pl'){
+    console.log("Hello");
+  }else{
+    console.log("Hello in else");
+  }
+  // console.log(selection);
  }
-}
 
-hidden();
+ selection();
+ 
+
+
 let turn = "X";
 
 const changeTurn = () => {
