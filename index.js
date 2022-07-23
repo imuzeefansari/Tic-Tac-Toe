@@ -17,7 +17,6 @@ let isGameOver = false;
   }else{
     console.log("Hello in else");
   }
-  // console.log(selection);
  }
 
  selection();

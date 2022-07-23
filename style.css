@@ -21,17 +21,35 @@ nav {
 nav ul li {
   list-style: none;
 }
+.game-conCm{
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
 .game-con {
   display: flex;
   justify-content: center;
   padding-top: 50px;
 }
-
+.containerCm {
+  display: grid;
+  grid-template-columns: repeat(3, 9vw);
+  grid-template-rows: repeat(3, 9vw);
+  font-family: "Roboto", sans-serif;
+}
 .container {
   display: grid;
   grid-template-columns: repeat(3, 9vw);
   grid-template-rows: repeat(3, 9vw);
   font-family: "Roboto", sans-serif;
+}
+.boxCm {
+  border: 2px solid black;
+  font-size: 8vw;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .box {
   border: 2px solid black;
@@ -44,14 +62,24 @@ nav ul li {
 .box:hover {
   background: rgb(217, 180, 252);
 }
+.boxCm:hover {
+  background: rgb(217, 180, 252);
+}
 .info {
+  font-size: 22px;
+}
+.infoCm {
   font-size: 22px;
 }
 .game-info {
   padding: 0 34px;
   font-family: "Baloo Bhaina 2", cursive;
 }
-.img-box img {
+.game-infoCm {
+  padding: 0 34px;
+  font-family: "Baloo Bhaina 2", cursive;
+}
+.img-boxCm img {
   width: 0;
   transition: width 1s ease-in-out;
 }
@@ -73,29 +101,20 @@ nav ul li {
  align-items: center;
  margin: auto;
  margin-top: 10px;
- /* margin-bottom: 10px; */
  font-size: 18px;
  font-family: "Baloo Bhaina 2", cursive;
  padding: 5px;
  border-radius: 10px;
  text-align: center;
 }
-/* #submit{
-  display: flex;
-  justify-content: center;
-  display: inline-block;
-  margin: auto;
-  text-align: center;
-} */
- #select-box:focus{
-  background: rgb(228, 0, 0);
-  color: white;
-}
+
 label{
   font-size: 18px;
   margin-top: 5px;
   display: flex;
   justify-content: center;
+  font-family: "Baloo Bhaina 2", cursive;
+  font-style: italic;
 }
 
 
