@@ -21,35 +21,16 @@ nav {
 nav ul li {
   list-style: none;
 }
-.game-conCm{
-  display: flex;
-  justify-content: center;
-  padding-top: 50px;
-}
 .game-con {
   display: flex;
   justify-content: center;
   padding-top: 50px;
-}
-.containerCm {
-  display: grid;
-  grid-template-columns: repeat(3, 9vw);
-  grid-template-rows: repeat(3, 9vw);
-  font-family: "Roboto", sans-serif;
 }
 .container {
   display: grid;
   grid-template-columns: repeat(3, 9vw);
   grid-template-rows: repeat(3, 9vw);
   font-family: "Roboto", sans-serif;
-}
-.boxCm {
-  border: 2px solid black;
-  font-size: 8vw;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .box {
   border: 2px solid black;
@@ -62,24 +43,14 @@ nav ul li {
 .box:hover {
   background: rgb(217, 180, 252);
 }
-.boxCm:hover {
-  background: rgb(217, 180, 252);
-}
 .info {
-  font-size: 22px;
-}
-.infoCm {
   font-size: 22px;
 }
 .game-info {
   padding: 0 34px;
   font-family: "Baloo Bhaina 2", cursive;
 }
-.game-infoCm {
-  padding: 0 34px;
-  font-family: "Baloo Bhaina 2", cursive;
-}
-.img-boxCm img {
+.img-box img {
   width: 0;
   transition: width 1s ease-in-out;
 }
@@ -116,8 +87,6 @@ label{
   font-family: "Baloo Bhaina 2", cursive;
   font-style: italic;
 }
-
-
  #reset {
   margin: 0 20px;
   padding: 1px 18px;
